@@ -1,0 +1,23 @@
+@media only screen and (max-width: 1199px) {
+    .mag-but {
+        font-size: 0.75rem!important;
+    }
+}
+@media only screen and (max-width: 991px) {
+    .mag-but {
+        margin-bottom: 10px!important;
+    }
+    button.btn.btn-outline-light.mag-but {
+        width: 150px;
+    }
+}
+@media only screen and (max-width: 776px) {
+    .header-content {
+        text-align: center!important;
+    }
+}
+@media only screen and (max-width: 540px) {
+    input.form-control.me-auto.w-75 {
+        margin-right: 20px!important;
+    }
+}

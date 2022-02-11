@@ -1,0 +1,123 @@
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  scroll-behavior: smooth;
+}
+
+/*color-background*/
+.co-background{
+  background-color: #0d6efd;
+  color: #fff;
+}
+/*black-background*/
+.bg-darker {
+  background-color: #000;
+  color: #fff;
+}
+
+/*max-width 75%*/
+.mw-75{
+  max-width: 75%!important;
+}
+
+/*min-height*/
+.mh-100 {
+  min-height: 100px;
+}
+
+/*fs-13;*/
+.fs-13 {
+  font-size: 13px!important;
+}
+
+/*pointer*/
+.fab {
+  cursor: pointer;
+}
+/*vertical-line*/
+
+/*header-element*/
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Roboto Slab', serif;
+}
+h2 {
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 1.4;
+}
+/*header*/
+.nav-link:hover {
+  color: #0dcaf0!important
+}
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.header-content {
+  padding: 5% 0;
+}
+
+/*find service provider around you*/
+#find-service {
+  /* The image used */
+  background-image: url("../images/cobbler.jpg");
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+}
+
+.pad {
+  padding: 0 15%;
+}
+/*OUR SERVICES*/
+#our-services {
+  text-align: center;
+}
+img.py-3.mw-100 {
+  transition: transform .2s;
+  cursor: pointer;
+}
+img.py-3.mw-100:hover {
+  transform: scale(1.5);
+}
+
+/*review*/
+.indicator {
+  border-radius: 50%;
+  height: 10px!important;
+  width: 10px!important;
+}
+/*carousel-item*/
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/*contact-form*/
+.input {
+  padding: 8px;
+  display: block;
+  border: none;
+  border-bottom: 1px solid #ccc;
+}
+
+/*#footer*/
+#footer {
+  background-image: url('/images/cover.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+/*footer-icon:hover*/
+.fab.fa-facebook-square:hover{
+  color: #0d6efd;
+}
+.fab.fa-twitter:hover {
+  color: #3999e3;
+}
+.fab.fa-instagram:hover {
+  color: #e33f80;
+}

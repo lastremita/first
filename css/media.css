@@ -1,0 +1,27 @@
+/*screen-size max-width 990px*/
+@media (max-width: 990px) {
+    #title {
+    text-align: center;
+    }
+    .img-shift {
+        transform: rotate(0);
+        position: static;
+        margin: 20px 0 0;
+    }
+    .img-pad {
+      transition: transform .5s;
+    }
+    .img-pad:hover {
+      transform: scale(2.5);
+    }
+}
+/*screen-size max-width 768px*/
+@media (max-width: 768px) {
+    .img-pad:hover {
+      transform: scale(1.5);
+    }
+}
+/*screen-size max-width 420px*/
+@media (max-width: 420px) {
+
+}

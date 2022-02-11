@@ -1,0 +1,135 @@
+* {
+    font-family: "Montserrat";
+    margin: 0;
+}
+/*header*/
+.heading-one {
+    font-family: "Montserrat-Black"!important;
+    font-size: 3.5rem!important;
+    line-height: 1!important;
+  }
+.heading-two {
+  font-family: "Montserrat bold";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+/*nav-bar*/
+.navbar {
+  padding: 30px 0
+}
+.navbar-brand {
+  font-family: "Ubuntu"!important;
+  font-size: 1.5rem!important;
+}
+.nav-link {
+    padding: 0 20px!important;
+}
+.dropdown-menu {
+     color: #ffffff;
+     background-color: transparent;
+     border: none;
+}
+.dropdown-item {
+    color: #ffffff;
+}
+/*heading style*/
+.big-heading {
+  font-weight: bold;
+}
+/*colour-style*/
+.back-color-one {
+  background-color: #ef7468;
+  color: #fff;
+}
+.back-color-two {
+  background-color: #ffffff;
+  color: #000;
+}
+/*title page*/
+#title {
+  padding: 20px 0 70px;
+}
+.rounded {
+  padding: 30px 0;
+}
+.img-shift {
+    transform: rotate(30deg);
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*features*/
+#features{
+  position: relative;
+  z-index: 1;
+}
+.container-fluid {
+  padding: 7% 15%;
+}
+.pad {
+  padding: 50px 40px;
+}
+.pad h3 {
+  font-family: "Montserrat";
+}
+.pad p {
+  color: #0e0c0c80;
+}
+.fa-3x {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+.fa-heart:hover {
+  color: red;
+}
+.fa-bullseye:hover {
+  color: #2fae5f;
+}
+.fa-check-circle:hover {
+  color: #3fb1c2;
+}
+/*Testimonials */
+.w-10 {
+  width: 10%;
+}
+.test {
+  transition: transform .2s!important;
+}
+.bod {
+  cursor: pointer;
+}
+.indicator {
+  width: 10px!important;
+  height: 10px!important;
+  background: #fff;
+}
+/*press-tag*/
+#press {
+  padding: 0 0 70px;
+}
+.img-pad {
+  padding: 50px 20px;
+}
+.img-pad:hover {
+  filter: grayscale(100%);
+}
+/*pricing*/
+#pricing{
+  padding: 50px 0 70px;
+  text-align: center;
+}
+/*footer*/
+.fa-twitter:hover {
+  color: #1c9ceb;
+}
+.fa-facebook-f:hover {
+  color: #1873eb;
+}
+.fa-instagram:hover {
+  color: #bb34a3;
+}
+.fa-envelope:hover {
+  color: #8b2d26;
+}
